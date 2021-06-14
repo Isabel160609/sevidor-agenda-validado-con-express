@@ -1,0 +1,42 @@
+###
+GET http://localhost:3000/personas
+
+###
+POST  http://localhost:3000/personas
+content-type: application/json
+
+{
+
+     "nombre": "Isa",
+    "apellidos": "dom",
+    "edad": 42,
+    
+    "dni": "46354180a",
+    "color": "verde",
+    "sexo": "hombre"
+
+}
+
+###
+GET http://localhost:3000/personas/60a6ab084dfb6941689ad56f
+
+###
+DELETE  http://localhost:3000/personas/60a6aad04dfb6941689ad56e
+
+###
+
+PUT http://localhost:3000/personas/60ba5912dfde7a989cbcd28
+content-type: application/json
+
+{
+
+    "nombre": "is",
+    "apellidos": "Sanchez cepeda",
+    "edad": 142,
+    "cumple": "02/15/1975",
+    "dni": "46354180a",
+    "color": "verde",
+    "sexo": "hombre"
+    
+
+}
